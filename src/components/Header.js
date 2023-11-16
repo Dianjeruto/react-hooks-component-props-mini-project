@@ -1,12 +1,12 @@
-// Header.js
 import React from "react";
 
-const Header = ({ name }) => {
+function Header({name}) {
+ 
   return (
-    <header>
+    <div>
       <h1>{name}</h1>
-    </header>
+    </div>
   );
-};
+}
 
 export default Header;
